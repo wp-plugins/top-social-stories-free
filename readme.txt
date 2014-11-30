@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: ginoplusio
 Donate link: http://www.barattalo.it/top-stories-plugin-widget/
-Tags: admin, analytics, dashboard, engagement, Facebook, vkontakte, pinterest, metrics, Share, shares, sharing, social, social media, tracking, twitter
+Tags: admin, analytics, dashboard, engagement, Facebook, vkontakte, pinterest, metrics, Share, shares, sharing, social, social media, tracking, twitter, social analytics, social metrics, social metric, social analytic, facebook analytic
 Requires at least: 3.0.1
 Tested up to: 4.0.1
 Stable tag: 1.72
