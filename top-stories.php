@@ -136,9 +136,9 @@ function top_stories_admin_script($hook) {
 	
 	if($wp_version > '3.7.9') {
 		// css metro like ui
-		wp_register_style( 'top-stories-admin', plugins_url( 'top-stories/css/style.3.8.css' ) );
+		wp_register_style( 'top-stories-admin', plugin_dir_url( __FILE__ ).'css/style.3.8.css'  );
 	} else {
-		wp_register_style( 'top-stories-admin', plugins_url( 'top-stories/css/style.css' ) );
+		wp_register_style( 'top-stories-admin', plugin_dir_url( __FILE__ ).'css/style.css'  );
 	}
 	wp_enqueue_style( 'top-stories-admin' );
 }
