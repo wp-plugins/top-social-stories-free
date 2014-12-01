@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: ginoplusio
 Donate link: http://www.barattalo.it/top-stories-plugin-widget/
-Tags: admin, analytics, dashboard, engagement, Facebook, vkontakte, pinterest, metrics, Share, shares, sharing, social, social media, tracking, twitter, social analytics, social metrics, social metric, social analytic, facebook analytic
+Tags: admin, analytics, dashboard, engagement, Facebook, vkontakte, pinterest, metrics, Share, shares, sharing, social, social media, tracking, twitter, social analytics, social metrics, facebook analytics, facebook stats, viral posts, twitter analytics
 Requires at least: 3.0.1
 Tested up to: 4.0.1
 Stable tag: 1.72
@@ -36,12 +36,15 @@ It's quick and painless to get the complete version (if you want to upgrade from
 
 = How long does it take to collect data? =
 
-It depends on the traffic of your site?
+It depends on the traffic of your site and the "ajax delay calls parameter", if you have a lot of traffic and put the "ajax delay calls parameter" to 5-10 seconds, it will take many data in a few hours. After install you should wait a few days to get a lot of data, but you can reload the analytics page every time you want to see changes in collected data.
 
 = Does it slow down my site? =
 
-No, data are collected asyncronously with javascript
+No, data are collected asyncronously with javascript, after some seconds (this is the "ajax delay calls parameter") that the page is loaded.
 
+= Can I show shares counters in my theme? =
+
+Yes you can activate the export feature to save counters on custom fields for each post (you will find 'facebook_shares', 'twitter_shares' fields... one for each social network). Then you have to use the standard custom fields function to extract data. 
 
 == Screenshots ==
 
