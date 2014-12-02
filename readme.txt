@@ -51,7 +51,12 @@ Yes you can activate the export feature to save counters on custom fields for ea
 
 == Changelog ==
 
-= 1.72 =
-* First free version
+= 1.72 - 2014-11-28 =
+
+First free version
+
+= 1.73 - 2014-12-02 =
+
+Small bug fixing and better user experience
+
 
-== Upgrade Notice ==
