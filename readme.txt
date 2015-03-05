@@ -4,7 +4,7 @@ Donate link: http://www.barattalo.it/top-stories-plugin-widget/
 Tags: admin, analytics, dashboard, engagement, Facebook, vkontakte, pinterest, metrics, Share, shares, sharing, social, social media, tracking, twitter, social analytics, social metrics, facebook analytics, facebook stats, viral posts, twitter analytics
 Requires at least: 3.0.1
 Tested up to: 4.0.1
-Stable tag: 1.73
+Stable tag: 1.74
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,5 +58,9 @@ First free version
 = 1.73 - 2014-12-02 =
 
 Small bug fixing and better user experience
+
+= 1.74 - 2015-03-05 =
+
+Css bug fixed
 
 
