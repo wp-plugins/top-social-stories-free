@@ -3,7 +3,7 @@
 Plugin Name: Top Social Stories Free
 Plugin URI: http://www.barattalo.it/top-stories-plugin-widget/
 Description: Create top stories from Facebook's likes, shares, comments and Twitter's tweets, Google+, Pinterest, VKontakte and Linkedin, found your top viral posts (most shared), display charts and show trending posts and authors. This is a free version of the full plugin sold on CodeCanyon.
-Version: 1.73
+Version: 1.74
 Author: Giulio Pons
 Author URI: http://codecanyon.net/user/ginoplusio
 */
@@ -64,7 +64,7 @@ function top_stories_scripts(){
 		wp_localize_script( 'top_stories_script_js', 'top_stories_params', $params );
 	}
 
-	wp_register_style( 'top-stories', plugins_url( 'top-stories/css/style.css' ) );
+	wp_register_style( 'top-stories', plugins_url( 'top-stories-free/css/style.css' ) );
 	wp_enqueue_style( 'top-stories' );
 }
 add_action('wp_enqueue_scripts','top_stories_scripts');
