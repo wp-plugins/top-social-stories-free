@@ -3,7 +3,7 @@
 Plugin Name: Top Social Stories Free
 Plugin URI: http://www.barattalo.it/top-stories-plugin-widget/
 Description: Create top stories from Facebook's likes, shares, comments and Twitter's tweets, Google+, Pinterest, VKontakte and Linkedin, found your top viral posts (most shared), display charts and show trending posts and authors. This is a free version of the full plugin sold on CodeCanyon.
-Version: 1.74
+Version: 1.75
 Author: Giulio Pons
 Author URI: http://codecanyon.net/user/ginoplusio
 */
@@ -761,7 +761,7 @@ function top_stories_getStats($days=7,$howmany=6,$placeholder="", $ptArr = null)
 			$deltaLi = $oggi['linkedin_shares'] - $ieri['linkedin_shares'];
 			$deltaVk = $oggi['vkontakte_shares'] - $ieri['vkontakte_shares'];
 
-			$out.="<li><a href='".site_url()."/?p=".$post->post_id."' target='_blank'>";
+			$out.="<li><a href='".home_url()."/?p=".$post->post_id."' target='_blank'>";
 			$out.= $pic;
 			$out.="<span class='tit back'>".$post->post_title."</span> ";
 
@@ -842,7 +842,7 @@ function top_stories_getStats($days=7,$howmany=6,$placeholder="", $ptArr = null)
 			$deltaLi = $oggi['linkedin_shares'] - $ieri['linkedin_shares'];
 			$deltaVk = $oggi['vkontakte_shares'] - $ieri['vkontakte_shares'];
 
-			$out2.="<li><a href='".site_url()."/?p=".$post->post_id."' target='_blank'>";
+			$out2.="<li><a href='".home_url()."/?p=".$post->post_id."' target='_blank'>";
 			$out2.= $pic;
 			$out2.="<span class='tit back'>".$post->post_title."</span> ";
 
