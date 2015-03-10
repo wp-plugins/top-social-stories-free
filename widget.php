@@ -227,7 +227,7 @@ class top_stories_widget extends WP_Widget {
 						$out.="<li>";
 						if($pos) $out.= "<span class='thepos'>".$k." </span>";
 
-						$out.="<a href='".site_url()."/?p=".$post->post_id."' rel='nofollow'>";
+						$out.="<a href='".home_url()."/?p=".$post->post_id."' rel='nofollow'>";
 						if($images) {
 							$out.= $pic;
 						}
